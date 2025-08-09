@@ -26,6 +26,30 @@
 
         // 配列の三番目の要素を出力する
         print_r($user_names[2]);
+        echo "<br>";
+        echo "<br>";
+
+        
+        // 連想配列に値を代入する
+        $personal_data = ["name" => "侍太郎", "age" => 36, "gender" => "男性"];
+
+        // 連想配列の値を出力する
+        print_r($personal_data);
+        echo "<br>";
+
+        // "age"の値を更新する
+        $personal_data["age"] = 37;
+
+        // 新しい要素（キーと値）を追加する
+        $personal_data["address"] = "東京都";
+
+        // 連想配列の値を出力する
+        print_r($personal_data);
+        echo "<br>";
+
+        // キー"gender"の値を出力する
+        print_r($personal_data["gender"]);
+        echo "<br>";
         ?>
     </p>
 
