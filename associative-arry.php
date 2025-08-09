@@ -8,13 +8,13 @@
     <p>
         <?php
         // 連想配列を作成
-        $vesitable_data = [
+        $vegetable_data = [
             "name" => "onion",
             "price" => 200,
             "weight" => 160,
         ];
         // キーと値を出力
-        print_r($vesitable_data);
+        print_r($vegetable_data);
         ?>
     </p>
 </body>
